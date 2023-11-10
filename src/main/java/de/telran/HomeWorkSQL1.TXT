@@ -17,5 +17,5 @@ WHERE Price >=20
 SELECT DISTINCT Country FROM Suppliers;
 
 4.
-SELECT * FROM Customers
+SELECT ContactName FROM Customers
 WHERE NOT Country = 'France' AND NOT Country = 'USA'
