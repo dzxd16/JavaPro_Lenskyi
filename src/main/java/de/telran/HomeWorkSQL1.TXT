@@ -1,0 +1,21 @@
+1.
+Регистрация (Create)
+Авторизация (Read)
+Загрузка видео (Create)
+Просмотр видео (Read)
+Комментарий к видео (Create)
+Лайк видео (Update)
+Подписка на канал (Create)
+Удаление видео (Delete)
+Репост видео (Create)
+
+2.
+SELECT ProductName, Price  FROM Products
+WHERE Price >=20
+
+3.
+SELECT DISTINCT Country FROM Suppliers;
+
+4.
+SELECT * FROM Customers
+WHERE NOT Country = 'France' AND NOT Country = 'USA'
