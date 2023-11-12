@@ -1,11 +1,12 @@
 package de.telran.module_1.lesson_1;
 
 public class Cat {
-    String name;
+    public String name;
     private int weight;
     private int age;
 
     private boolean strerilized;
+
 
     public void setWeight(int weight) {
         if (weight>0) {
