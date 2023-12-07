@@ -4,13 +4,13 @@ public class SimpleBus {
         public static void main(String[] args) {
             BusService busService = new BusService();
 
-            Bus bus1 = new Bus(101, "ABC123", 37.7749, -122.4194);
-            Bus bus2 = new Bus(102, "XYZ456", 34.0522, -118.2437);
+            Bus bus1 = new Bus(14, "KI 5588 A", 48.8115, 9.3043);
+            Bus bus2 = new Bus(15, "KI 2221 A", 48.8189, 9.3175);
 
             busService.addBus(bus1);
             busService.addBus(bus2);
 
-            Bus foundBus = busService.getBusByNumber(101);
+            Bus foundBus = busService.getBusByNumber(14);
 
             if (foundBus != null) {
                 System.out.println("Bus Number: " + foundBus.getBusNumber());
